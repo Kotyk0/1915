@@ -1,38 +1,60 @@
-# from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler,Filters
-# from telegram import Update
-# def start(update=Update, context=CallbackContext):
-# def mes:
-#     update.message.reply_text("MAnki?")
-# def mes = mes.txt
-# if
-#     mes == "привіт":
-# else
-#
-#
-#
-#
-# def yes(update=Update, context=CallbackContext):
-#     update.message.reply_text("pon")
-# def no(update=Update, context=CallbackContext):
-#     update.message.reply_text("loh")
-# def echo(update=Update, context=CallbackContext):
-#     update.message.reply_text(update.message.text)
-# def wel(message):
-#     sti=open("https://jora.biz/wp-content/uploads/2018/02/Vlad-YAma-0-1.jpg")
-#     bot.send_stiker(message.chat.id,sti)
-#     bot.send_message(message.chat.id.format(message_user, bot.det_me()), parse_mode="html")
-# def main():
-#    updater=Updater("5632834447:AAF2VJzDB7HxgWc1whrQKAsDeSYgpj8XQNM")
-#    dispatcher=updater.dispatcher
-#    dispatcher.add_handler(CommandHandler("start", start))
-#    dispatcher.add_handler(CommandHandler("no", no))
-#    dispatcher.add_handler(CommandHandler("wel", wel))
-#
-#     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo ))
-#
-#     updater.start_polling()
-#     updater.idle()
-#
-# main()
-#
+class Student:
+    print("HI")
+    def __init__(self):
+        self.height = 160
+        self.grades = 12
+        self.width = 10
+        self.weight = 30
+        print("i am alive")
+    def printer(self):
+        print(self.height)
+        print(self.grades)
+        print(self.width)
+        print(self.weight)
+
+Yaroslav = Student()
+Alexandra = Student()
+kiril = Student()
+lana = Student()
+Yaroslav.printer()
+Alexandra.printer()
+kiril.printer()
+lana.printer()
+# student.__init__(self=Yaroslav)
+# print(Yaroslav.height)
+# print(Alexandra.height)
+# print(Kiril.height)
+# print(lana.height)
+# Yaroslav.height = 159
+# Alexandra.height = 157
+# Kiril.height = 140
+# lana.height = 120
+# print(Yaroslav.height)
+# print(Alexandra.height)
+# print(Kiril.height)
+# print(lana.height)
+# Yaroslav.grades = 2
+# Alexandra.grades = 9
+# Kiril.grades = 12
+# lana.grades = 8
+# print(Yaroslav.grades)
+# print(Alexandra.grades)
+# print(Kiril.grades)
+# print(lana.grades)
+# Yaroslav.width = 1.2
+# Alexandra.width = 1
+# Kiril.width = 6
+# lana.width = 8
+# print(Yaroslav.width)
+# print(Alexandra.width)
+# print(Kiril.width)
+# print(lana.width)
+# Yaroslav.weight = 40
+# Alexandra.weight = 46
+# Kiril.weight = 1000
+# lana.weight = 40
+# print(Yaroslav.weight)
+# print(Alexandra.weight)
+# print(Kiril.weight)
+# print(lana.weight)
 #
